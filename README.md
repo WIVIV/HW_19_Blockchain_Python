@@ -36,9 +36,9 @@ Screenshot of trsnaction record is as follows:
 5) To transact on ETH via geth (note 2 POW nodes have to be running) run the following code in the Python Shell
 
 ```
-btc_account = priv_key_to_account(BTCTEST,btc_pk)
+eth_account = priv_key_to_account(ETH,eth_pk)
 
-send_tx(BTCTEST,btc_account,'modrLkVnd1DsSF9PecxRP5qudxCo21GkBW',0.0001)
+send_tx(ETH,eth_account,'0x7723400939cA0445A10F836933928A0ad0aED265',1)
 ```
 Screenshot of trsnaction record is as follows:
 
