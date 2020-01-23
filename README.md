@@ -28,7 +28,7 @@ btc_account = priv_key_to_account(BTCTEST,btc_pk)
 
 send_tx(BTCTEST,btc_account,'modrLkVnd1DsSF9PecxRP5qudxCo21GkBW',0.0001)
 ```
-Screenshot of trsnaction record is as follows:
+Screenshot of transaction record is as follows:
 <p align="center">
 <img src="Images/1.png">
 </p>
@@ -40,7 +40,7 @@ eth_account = priv_key_to_account(ETH,eth_pk)
 
 send_tx(ETH,eth_account,'0x7723400939cA0445A10F836933928A0ad0aED265',1)
 ```
-Screenshot of trsnaction record is as follows:
+Screenshot of transaction record is as follows:
 
 
 <p align="center">
